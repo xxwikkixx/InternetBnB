@@ -4,7 +4,11 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.android.pennapps.internetbnb.wifihotspotutils.WifiApManager;
+
 public class HostActivity extends AppCompatActivity {
+
+    WifiApManager wifiApManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,6 +17,8 @@ public class HostActivity extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
+
+
 
     }
 }
