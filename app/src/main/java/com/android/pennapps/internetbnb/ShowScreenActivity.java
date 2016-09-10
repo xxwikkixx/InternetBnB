@@ -1,18 +1,24 @@
 package com.android.pennapps.internetbnb;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiManager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+
+import java.lang.reflect.Method;
 
 public class ShowScreenActivity extends AppCompatActivity {
 
     Button login;
     Button signup;
-
+    Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,4 +48,7 @@ public class ShowScreenActivity extends AppCompatActivity {
             }
         });
     }
+
+
 }
+

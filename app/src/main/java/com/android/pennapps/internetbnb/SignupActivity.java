@@ -1,9 +1,13 @@
 package com.android.pennapps.internetbnb;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiManager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,6 +15,8 @@ import android.widget.EditText;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.Map;
 
 public class SignupActivity extends AppCompatActivity {
@@ -18,6 +24,9 @@ public class SignupActivity extends AppCompatActivity {
     EditText email;
     EditText pass;
     Button signup;
+
+    public WifiManager wifiManager;
+    public Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +70,5 @@ public class SignupActivity extends AppCompatActivity {
                 });
             }
         });
-
-
     }
-
 }

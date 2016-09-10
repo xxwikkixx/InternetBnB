@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.android.pennapps.internetbnb"
-        minSdkVersion 23
-        targetSdkVersion 24
+        minSdkVersion 20
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
@@ -25,6 +25,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.parse:parse-android:1.13.1'
     compile 'com.firebase:firebase-client-android:2.5.2+'
+    compile 'com.braintreepayments.api:braintree:2.+'
+    compile 'com.braintreepayments.api:drop-in:2.+'
 }
 
 apply plugin: 'com.google.gms.google-services'
