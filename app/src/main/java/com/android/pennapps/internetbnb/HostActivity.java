@@ -31,7 +31,7 @@ public class HostActivity extends AppCompatActivity {
         actionBar.hide();
 
         WifiAccessManager.setWifiApState(this, true);
-
+        
 
     }
 
