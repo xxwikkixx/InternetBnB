@@ -15,29 +15,30 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editEmail"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/editPassword"
-        android:hint="Email"/>
+        android:id="@+id/editEmailSignup"
+        android:hint="Email"
+        android:layout_above="@+id/editPasswordSignup"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editPassword"
+        android:id="@+id/editPasswordSignup"
+        android:layout_marginBottom="226dp"
+        android:hint="Password"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="219dp"
-        android:hint="Password"/>
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:id="@+id/loginButton"
-        android:layout_alignTop="@+id/editPassword"
+        android:id="@+id/loginBut"
+        android:layout_alignTop="@+id/editPasswordSignup"
         android:layout_marginTop="95dp"
-        android:layout_alignEnd="@+id/editPassword"
-        android:layout_alignStart="@+id/editPassword" />
+        android:layout_alignEnd="@+id/editPasswordSignup"
+        android:layout_alignStart="@+id/editPasswordSignup" />
 </RelativeLayout>

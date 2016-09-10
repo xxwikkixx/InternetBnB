@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:id="@+id/loginButton"
+        android:id="@+id/loginBut"
         android:layout_marginBottom="132dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/signupButton" />
@@ -24,6 +24,6 @@
         android:text="Sign Up"
         android:id="@+id/signupButton"
         android:layout_marginTop="61dp"
-        android:layout_alignTop="@+id/loginButton"
+        android:layout_alignTop="@+id/loginBut"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

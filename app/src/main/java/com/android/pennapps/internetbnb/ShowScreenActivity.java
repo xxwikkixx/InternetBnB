@@ -16,7 +16,7 @@ public class ShowScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_screen);
 
-        login = (Button)findViewById(R.id.loginButton);
+        login = (Button)findViewById(R.id.loginBut);
         signup = (Button)findViewById(R.id.signupButton);
 
         login.setOnClickListener(new View.OnClickListener() {

@@ -9,8 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.pennapps.internetbnb.MainActivity">
 
-    <TextView
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Turn on Tethering"
+        android:id="@+id/tetherBut"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect as Client"
+        android:id="@+id/clientBut"
+        android:layout_below="@+id/tetherBut"
+        android:layout_alignStart="@+id/tetherBut"
+        android:layout_marginTop="189dp"
+        android:layout_alignEnd="@+id/tetherBut" />
 </RelativeLayout>

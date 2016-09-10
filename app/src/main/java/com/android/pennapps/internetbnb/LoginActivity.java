@@ -25,15 +25,14 @@ public class LoginActivity extends AppCompatActivity {
 
         Firebase.setAndroidContext(this);
 
-        getActionBar().hide();
-
-        emailText = (EditText)findViewById(R.id.editEmail);
-        passText = (EditText)findViewById(R.id.editPassword);
-        login = (Button)findViewById(R.id.loginButton);
+        emailText = (EditText)findViewById(R.id.editEmailSignup);
+        passText = (EditText)findViewById(R.id.editPasswordSignup);
+        login = (Button)findViewById(R.id.loginBut);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String email = emailText.getText().toString();
                 String password = passText.getText().toString();
 
@@ -59,6 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                         @Override
                         public void onAuthenticationError(FirebaseError firebaseError) {
                             // there was an error
+                            System.out.println("not working");
                         }
                     });
                 }
