@@ -7,23 +7,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.android.pennapps.internetbnb.ShowScreenActivity">
+    tools:context="com.android.pennapps.internetbnb.ShowScreenActivity"
+    android:background="#6BBF78"
+    android:padding="50dp">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/loginBut"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="159dp"
+        android:background="#D98FA3"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/signupButton" />
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:id="@+id/signupButton"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="75dp"
+        android:background="#D98FA3"
         android:layout_alignTop="@+id/loginBut"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@mipmap/logo" />
 </RelativeLayout>
