@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.pennapps.internetbnb.LoginActivity"
-    android:padding="40dp"
+    android:padding="50dp"
     android:background="#6BBF78">
 
     <EditText
@@ -28,18 +28,18 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/editPasswordSignup"
-        android:layout_marginBottom="249dp"
+        android:layout_marginBottom="203dp"
         android:hint="Password"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
         android:id="@+id/loginBut"
-        android:layout_marginTop="78dp"
-        android:layout_below="@+id/editEmailSignup"
-        android:layout_alignParentStart="true"
-        android:background="#D98FA3"/>
+        android:layout_marginTop="100dp"
+        android:background="#D98FA3"
+        android:layout_alignTop="@+id/editPasswordSignup"
+        android:layout_alignStart="@+id/editPasswordSignup" />
 </RelativeLayout>

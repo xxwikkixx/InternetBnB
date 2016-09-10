@@ -1,5 +1,6 @@
 package com.android.pennapps.internetbnb;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         Host = (Button)findViewById(R.id.tetherBut);
         Client = (Button)findViewById(R.id.clientBut);
