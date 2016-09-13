@@ -6,7 +6,7 @@ import android.net.wifi.WifiManager;
 
 public class WifiAccessManager {
 
-    private static final String SSID = "1234567890abcdef";
+    private static final String SSID = "InternetBnB";
     public static boolean setWifiApState(Context context, boolean enabled) {
         //config = Preconditions.checkNotNull(config);
         try {

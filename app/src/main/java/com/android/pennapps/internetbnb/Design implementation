@@ -1,0 +1,9 @@
+First screen is the DecisionActivity
+
+DecisionActivity: has two buttons Host and Client
+    User decides what they want to be, from there we redirect their activity.
+
+If HostActivity
+    Turns on wifi tethering and setups local gateway server in the app for the web portal
+    Enable temporary internet access for the web portal for the user the login too.
+    Wait for user to login in sucessfully and recieve a response of OK from the server to allow internet access.
