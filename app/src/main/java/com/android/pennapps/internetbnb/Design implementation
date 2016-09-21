@@ -1,9 +1,23 @@
-First screen is the DecisionActivity
+The app is only for the Host.
+THe client DOES NOT need this app
 
-DecisionActivity: has two buttons Host and Client
-    User decides what they want to be, from there we redirect their activity.
+First screen is the login screen for the HOST who is turning on the tethering.
+    The hotspot is oneline
+    clients can search for it and connect to it automatically
+    once connected they have to login through the portal wifi portal (google how to setup wifi portal in hotspot)
+    once logged in, server sends OK request back.
+    HOST starts monitoring each clients data usage and reports to server at the end of the disconnect
+    SERVER creates the total amount of the charge they will be charging the CLIENT using the internet.
+    clients will be charged weekly based on their usage.
 
-If HostActivity
-    Turns on wifi tethering and setups local gateway server in the app for the web portal
-    Enable temporary internet access for the web portal for the user the login too.
-    Wait for user to login in sucessfully and recieve a response of OK from the server to allow internet access.
+
+ShowScreenActivity -> LoginActivity
+                          lets the HOST login to the app
+                   -> SignupActivity
+                          lets the NEW HOST register for the service
+    MainActivity ->
+        Turns on wifi hotspot and waits for clients to connect.
+    ClientActivity_Service ->
+        Monitors the clients connect to the hotspot
+        Calculating their bandwidth usage
+        Reports to the server backend of the usage
