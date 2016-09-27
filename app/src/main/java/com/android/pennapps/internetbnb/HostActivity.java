@@ -15,7 +15,7 @@ public class HostActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-        WifiAccessManager.setWifiApState(this, true);
+        //WifiAccessManager.setWifiApState(this, true);
 
         //system output test for
         System.out.println(android.net.TrafficStats.getMobileRxBytes());

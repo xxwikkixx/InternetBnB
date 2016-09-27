@@ -18,7 +18,7 @@ public class ShowScreenActivity extends AppCompatActivity {
 
     Button login;
     Button signup;
-    Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

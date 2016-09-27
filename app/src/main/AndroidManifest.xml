@@ -36,7 +36,6 @@
         <activity
             android:name=".HostActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ClientActivity"></activity>
     </application>
 
 </manifest>
