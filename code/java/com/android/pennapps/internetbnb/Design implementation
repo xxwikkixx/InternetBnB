@@ -1,0 +1,23 @@
+The app is only for the Host.
+THe client DOES NOT need this app
+
+First screen is the login screen for the HOST who is turning on the tethering.
+    The hotspot is oneline
+    clients can search for it and connect to it automatically
+    once connected they have to login through the portal wifi portal (google how to setup wifi portal in hotspot)
+    once logged in, server sends OK request back.
+    HOST starts monitoring each clients data usage and reports to server at the end of the disconnect
+    SERVER creates the total amount of the charge they will be charging the CLIENT using the internet.
+    clients will be charged weekly based on their usage.
+
+
+ShowScreenActivity -> LoginActivity
+                          lets the HOST login to the app
+                   -> SignupActivity
+                          lets the NEW HOST register for the service
+    MainActivity ->
+        Turns on wifi hotspot and waits for clients to connect.
+    ClientActivity_Service ->
+        Monitors the clients connect to the hotspot
+        Calculating their bandwidth usage
+        Reports to the server backend of the usage
