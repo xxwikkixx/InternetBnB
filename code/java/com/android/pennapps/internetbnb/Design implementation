@@ -2,7 +2,7 @@ The app is only for the Host.
 THe client DOES NOT need this app
 
 First screen is the login screen for the HOST who is turning on the tethering.
-    The hotspot is oneline
+    The hotspot is turned on
     clients can search for it and connect to it automatically
     once connected they have to login through the portal wifi portal (google how to setup wifi portal in hotspot)
     once logged in, server sends OK request back.
