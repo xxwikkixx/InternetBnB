@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.fattin.hotspot-157dede5b87b49f9a50e62c2fa3a235a.apk
+compressionType: false
+doNotCompress:
+- arsc
+- res/raw/pkcs12_key
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '17'
+sharedLibrary: false
+unknownFiles:
+  org/xbill/DNS/windows/DNSServer.properties: '8'
+  org/xbill/DNS/windows/DNSServer_de.properties: '8'
+  org/xbill/DNS/windows/DNSServer_fr.properties: '8'
+  org/xbill/DNS/windows/DNSServer_ja.properties: '8'
+  org/xbill/DNS/windows/DNSServer_pl.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '5'
+  versionName: 0.9.6.3

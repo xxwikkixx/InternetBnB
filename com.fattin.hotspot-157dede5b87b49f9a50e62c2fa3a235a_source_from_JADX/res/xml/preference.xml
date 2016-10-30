@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/pref_server_auth_section_title">
+        <PreferenceScreen android:title="@string/pref_server_auth_screen_login_title" android:key="prefLogin" android:shouldDisableView="true">
+            <intent android:targetPackage="com.fattin.hotspot" android:action="android.intent.action.MAIN" android:targetClass="com.fattin.hotspot.activity.UserSignInActivity" />
+        </PreferenceScreen>
+        <Preference android:title="@string/pref_server_auth_screen_logout_title" android:key="prefLogout" android:shouldDisableView="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_hotspot_options_section_title">
+        <EditTextPreference android:title="@string/pref_hotspot_price_title" android:key="prefHotspotPrice" android:summary="@string/pref_hotspot_price_summary" android:dialogTitle="@string/pref_hotspot_price_title" android:dialogMessage="@string/pref_hotspot_price_message" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_beta_title">
+        <CheckBoxPreference android:title="@string/pref_send_crash_report_title" android:key="acra.enable" android:defaultValue="true" android:summaryOn="@string/pref_send_crash_report_summary_enabled" android:summaryOff="@string/pref_send_crash_report_summary_disabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

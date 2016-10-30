@@ -1,0 +1,127 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: H2oqa3WUTQfJ/dPGgqa7UHkAe7Y=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: RdrhibEq2Xon1wGGi1SA/i8kkvk=
+
+Name: res/raw/pkcs12_key
+SHA1-Digest: PIWVN817E+34TT1X1xHjAEVXKFQ=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: A+rziZdJsdN26uXlo3+nD+k0tzM=
+
+Name: res/drawable-hdpi-v11/ic_stat_example.png
+SHA1-Digest: tKDhKhpA+qMRO5xs6SzpbJIXsL4=
+
+Name: res/drawable-ldpi-v9/ic_stat_example.png
+SHA1-Digest: 9IA0bL10cRaMGMTqYA+jgt4EvQM=
+
+Name: org/xbill/DNS/windows/DNSServer_de.properties
+SHA1-Digest: f3hubKN6Np5DsO3WN2x/rGGNRHA=
+
+Name: res/drawable/background.jpg
+SHA1-Digest: Xxnz3teJTIqsol9Es936cUVaugg=
+
+Name: resources.arsc
+SHA1-Digest: Ez8G6qyQMaRyrONy8z8Y41ibJ24=
+
+Name: res/drawable-mdpi-v9/ic_stat_example.png
+SHA1-Digest: GawDZm/lAkMjFxFNiD8vJqrLIDw=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: AMmIZbDNu7Vaa4hP3whXTo+de2o=
+
+Name: org/xbill/DNS/windows/DNSServer_fr.properties
+SHA1-Digest: hD6mWkMx80ymuZNIFO7pL0QcsCk=
+
+Name: res/layout/accesslist.xml
+SHA1-Digest: Pxr0ZS6Fpw1NoSMFLegik3kj0HM=
+
+Name: lib/armeabi/libnativetask.so
+SHA1-Digest: +A/nGiwRd7yGfPhCgqSfs9lW62Q=
+
+Name: res/drawable-hdpi-v9/ic_stat_example.png
+SHA1-Digest: +SpCvRBVhO6xXBG/3WcKasHzpEc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Bl4gXj8kh5FNo79FHxakuhm3PuA=
+
+Name: org/xbill/DNS/windows/DNSServer.properties
+SHA1-Digest: z5Vl2LjRuqdZmOM95HX4gIJIKzk=
+
+Name: res/layout/user_reg.xml
+SHA1-Digest: LQR9IN7Jghz0blaRDfKQFDEGGeo=
+
+Name: res/layout/web_auth.xml
+SHA1-Digest: GuLC3wWRDrCk+seuM4oOJbaBGw4=
+
+Name: res/layout/price.xml
+SHA1-Digest: ALbxF8eDtFPAHNgf/9SYbVDFH98=
+
+Name: res/drawable-mdpi-v11/ic_stat_example.png
+SHA1-Digest: BNwTEW+ViB20z3Rk/khPybSoByQ=
+
+Name: res/layout/eula.xml
+SHA1-Digest: zsteESAFwEQKdhKUBHLbBa8kWI4=
+
+Name: res/xml/preference.xml
+SHA1-Digest: sbQRkwFTy/WkLr1Qpz8xpfso2xY=
+
+Name: res/drawable-ldpi/ic_stat_example.png
+SHA1-Digest: vxWhbMv9CkgkjfnvAROT4YWOzSY=
+
+Name: org/xbill/DNS/windows/DNSServer_ja.properties
+SHA1-Digest: gPoHlBts7q9P861LnXKe1rpYNrQ=
+
+Name: res/drawable-xhdpi-v9/ic_stat_example.png
+SHA1-Digest: My/uLGrtzMm47VgvA1sK87rSXRU=
+
+Name: res/drawable-ldpi-v11/ic_stat_example.png
+SHA1-Digest: fWEXDPQCF36IiMtmMlhEAhgC3KQ=
+
+Name: res/layout/checkbox.xml
+SHA1-Digest: AL6pHy1zEEDi+QU02M5OX/IL+ck=
+
+Name: org/xbill/DNS/windows/DNSServer_pl.properties
+SHA1-Digest: 3Fe+xiYIE2TpqiVtN4klTxfk5hM=
+
+Name: classes.dex
+SHA1-Digest: puh7Ct8NVp6F0WmEwAfwAchTN1s=
+
+Name: res/layout/main.xml
+SHA1-Digest: KJVO4zJhKSAtV6lrg9ZsW1MIrQw=
+
+Name: res/raw/busybox
+SHA1-Digest: e4wWPlsVt5G3m6FltCi1CMtPxIE=
+
+Name: res/drawable-mdpi/ic_stat_example.png
+SHA1-Digest: pWETFENjJzI5IhzWyIjUE3VKVKA=
+
+Name: res/drawable-hdpi/ic_stat_example.png
+SHA1-Digest: zhlLhVX7l+uADpfe/fHGUGGzpl4=
+
+Name: res/layout/accesslistitem.xml
+SHA1-Digest: 0DgqQGgygl5xZyGSukg3clzPRBY=
+
+Name: res/drawable-xhdpi/ic_stat_example.png
+SHA1-Digest: z9FVdgWUF3u/wCHcBfvntIMiyWM=
+
+Name: res/layout/hotspot_reg.xml
+SHA1-Digest: h4H0Ig/UZhhN9NJRcbQjDm3fH7k=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: KfRyRtO3rmq1sTf5pS6sObaQK/Y=
+
+Name: res/drawable-xhdpi-v11/ic_stat_example.png
+SHA1-Digest: I0JZGXGaCuwf2gSWj/WOAzhMlQE=
+
+Name: res/layout/user_signin.xml
+SHA1-Digest: L5KZkFJOP2AfD1YxnxIy0fxspDw=
+
+Name: res/menu/contextmenu.xml
+SHA1-Digest: ApnWAtXJiWXDKkAnEjM/Q2Txkfk=
+
+Name: res/raw/iptables
+SHA1-Digest: 2qTHhoOYGy1w50CuhbXWHwUhJCg=
+

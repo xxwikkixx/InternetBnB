@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/register_layout" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="3" android:id="@id/hotspot_reg_price_TextView" android:layout_width="-2" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/pref_hotspot_price_message" android:layout_weight="1.0" />
+    <EditText android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="7" android:id="@id/hotspot_reg_price_EditText" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:scrollHorizontally="true" android:layout_weight="1.0" android:inputType="2002" />
+    <LinearLayout android:id="@id/hotspot_reg_buttons_row_LinearLayout" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_weight="1.0">
+        <Button android:id="@id/hotspot_reg_register_Button" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/button_register" android:layout_weight="1.0" />
+        <Button android:id="@id/hotspot_reg_cancel_Button" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/button_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:layout_gravity="1" android:id="@id/hotspot_reg_message_TextView" android:layout_width="-2" android:layout_height="0dp" android:layout_margin="20dp" android:text="" android:layout_weight="1.0" />
+</LinearLayout>

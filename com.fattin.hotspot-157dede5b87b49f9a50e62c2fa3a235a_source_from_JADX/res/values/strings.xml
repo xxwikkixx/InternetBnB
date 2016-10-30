@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-37658933-1</string>
+    <string name="app_name">Paywall</string>
+    <string name="missing_feature_netfilter">"This device is not compatible.
+Missing Kernel Feature \"Netfilter\"."</string>
+    <string name="missing_feature_access_control">"This device is not compatible:
+Missing Kernel Feature \"Access Control\"."</string>
+    <string name="missing_feature_root_permission">"This device is not rooted.
+Root permission is required."</string>
+    <string name="dialog_dataplan_notice_title">Notice</string>
+    <string name="dialog_dataplan_notice_checkbox">Do not show again</string>
+    <string name="dialog_dataplan_notice">"Mobile Data must be enabled.
+Wireless Hotspot will be enabled.
+Wireless Hotspot settings may be modified."</string>
+    <string name="prerequisites_message_wifi_ap_check_failed">"Couldn't start the built-in WiFi Portable Access Point.
+Try again later."</string>
+    <string name="prerequisites_message_mobile_data_enabled_check_failed">"Your mobile data is disabled.
+Mobile data must be enabled."</string>
+    <string name="prerequisites_message_mobile_data_connected_check_failed">"Your mobile data connection is not available.
+Try again later."</string>
+    <string name="prerequisites_message_server_reachable_check_failed">"Couldn't reach server.
+Try again later."</string>
+    <string name="business_message_hearbeat_timeout">ACCESS DENIED</string>
+    <string name="business_message_access_timeout">ACCESS EXPIRED</string>
+    <string name="main_activity_title">Clients List</string>
+    <string name="main_activity_toggle_off">Paywall Off</string>
+    <string name="main_activity_toggle_on">Paywall On</string>
+    <string name="notification_ticker_text">Paywall starting</string>
+    <string name="notification_title">Paywall active</string>
+    <string name="notification_message">Tap to view</string>
+    <string name="intentservice_started">IntentService Started</string>
+    <string name="accessListItem_label_earnings">Earnings</string>
+    <string name="accessListItem_label_duration">Duration</string>
+    <string name="accessList_session_status_authorized">ACTIVE</string>
+    <string name="accessList_session_status_unauthorized">NOT ACTIVE</string>
+    <string name="user_signin_header1">New User?</string>
+    <string name="user_signin_header2">Already have an account?</string>
+    <string name="menu_access_list">Access List</string>
+    <string name="menu_preference">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_withdraw">Withdraw</string>
+    <string name="preference_title">android web server settings</string>
+    <string name="about_title">About Paywall</string>
+    <string name="progress_dialog_please_wait">please wait…</string>
+    <string name="button_ok">OK</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_login">Sign In</string>
+    <string name="button_register">Register</string>
+    <string name="button_update">Update</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="pref_hotspot_price_title">Price</string>
+    <string name="pref_hotspot_options_section_title">Hotspot Options</string>
+    <string name="pref_hotspot_price_message">Enter the price per hour (USD)</string>
+    <string name="pref_hotspot_price_summary">"Hotspot's price per hour"</string>
+    <string name="pref_server_auth_section_title">Your Account</string>
+    <string name="pref_server_username_title">Email</string>
+    <string name="pref_server_password_title">Password</string>
+    <string name="pref_confirm_password_title">Confirm Password</string>
+    <string name="pref_server_username_summary">Account email</string>
+    <string name="pref_server_password_summary">Account password</string>
+    <string name="pref_server_username_message">Enter your email</string>
+    <string name="pref_server_password_message">Enter your password</string>
+    <string name="pref_server_auth_screen_login_title">Sign in</string>
+    <string name="pref_server_auth_screen_logout_title">Sign Out</string>
+    <string name="pref_restore_wireless_title">Restore Wireless State</string>
+    <string name="pref_restore_wireless_summary">Restores Wireless states after turning-off</string>
+    <string name="pref_send_crash_report_title">Send Crash Reports</string>
+    <string name="pref_send_crash_report_summary_enabled">App is allowed to send crash reports</string>
+    <string name="pref_send_crash_report_summary_disabled">App crash reporting disabled</string>
+    <string name="RESULT_CODE_EMAIL_ALREADY_EXIST">Email already exists</string>
+    <string name="RESULT_CODE_INVALID_CREDENTIALS">Invalid username/password</string>
+    <string name="RESULT_CODE_INVALID_AUTH_TOKEN">Invalid Authentication token</string>
+    <string name="RESULT_CODE_HOTSPOT_ALREADY_EXIST">Hotspot already exists</string>
+    <string name="RESULT_CODE_HOTSPOT_NOT_REGISTERED_FOR_USER">Hotspot not registered with user</string>
+    <string name="RESULT_CODE_HOTSPOT_NOT_AUTHENTICATED">Invalid Hotspot token</string>
+    <string name="pref_beta_title">Beta Only</string>
+    <string name="crash_toast_text">"Crashed!
+Sending crash report…"</string>
+    <string name="crash_notif_ticker_text">Unexpected error, please send a report…</string>
+    <string name="crash_notif_title">CrashTest has crashed…</string>
+    <string name="crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="crash_dialog_title">CrashTest has crashed</string>
+    <string name="crash_dialog_text">"An unexpected error occurred forcing the application to stop. Please help us fix this by sending us error data, all you have to do is click 'OK'."</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="eula_checkbox">Send bug reports to improve this App</string>
+    <string name="eula_submit_button">I Agree</string>
+    <string name="eula_textview_terms">"Terms of Service
+ 
+ 
+- You will not use this application and/or service to violate a 3rd party’s privacy and/or compromise the security of their data/network transmissions. 
+- The funds you earn will be subject to fees for the service. 
+- Withdrawal of your funds might be subjected to the terms, conditions, and/or fees of a 3rd party payment processor. 
+- Fattin Hotspot Network reserves the right to withhold funds if we detect suspicious behavior pertaining to your account. 
+- Activities that may cause harm in any manner to users will be considered a violation of the service. 
+- Use this beta application at your own risk. 
+- This app is in beta and may crash, reboot or cause your mobile phone to misbehave. 
+- By using this app you are agreeing not to violate your mobile carrier provider terms and conditions. 
+- This App has a high bandwidth requirement, Fattin Hotspot Network is not responsible for any charges imposed by your mobile data carrier. 
+- Fattin Hotspot Network is not in any way responsible or liable for any violation or penalties imposed by your mobile carrier provider. 
+"</string>
+    <string name="accessListItem_status_image_ContentDesc">Status indicator</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:layout_weight="0.1">
+        <TextView android:id="@id/eula_TextView" android:layout_width="-1" android:layout_height="1424dp" android:text="@string/eula_textview_terms" android:layout_weight="0.1" />
+    </ScrollView>
+    <CheckBox android:id="@id/eula_agree_CheckBox" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:checked="true" android:text="@string/eula_checkbox" />
+    <Button android:layout_gravity="1" android:id="@id/eula_agree_Button" android:layout_width="-2" android:layout_height="-2" android:layout_margin="20dp" android:text="@string/eula_submit_button" />
+</LinearLayout>

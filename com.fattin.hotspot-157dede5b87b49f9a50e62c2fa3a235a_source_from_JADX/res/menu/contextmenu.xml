@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x1080057" android:id="@id/menuWithdraw" android:title="@string/menu_withdraw" />
+    <item android:icon="0x1080049" android:id="@id/menuPreference" android:title="@string/menu_preference" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="3" android:id="@id/price_view" android:layout_width="-2" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/pref_hotspot_price_title" android:layout_weight="1.0" />
+    <EditText android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="7" android:id="@id/price_edit" android:layout_width="-1" android:layout_height="0dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="" android:scrollHorizontally="true" android:capitalize="0" android:autoText="false" android:layout_weight="1.0" android:inputType="2002" />
+</LinearLayout>

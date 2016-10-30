@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <CheckBox android:id="@id/checkbox" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp" style="?unknown_attr_ref: 1010041" />
+</FrameLayout>
